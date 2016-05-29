@@ -1,4 +1,4 @@
-## Frontend UI Development with Gulp and living Styleguide (SC5)
+## Uniquer HTML5 & CSS3 - Contact Us Page
 
 ### Getting Started
 
@@ -27,6 +27,7 @@ Continue working, as soon as you save - it will compile CSS, and Refresh HTML to
 **Production Files:-**
 ```
 	+-- dist
+	|   +-- fonts
 	|   +-- images
 	|   +-- scripts
 	|	|   +-- main.js
@@ -40,6 +41,7 @@ Continue working, as soon as you save - it will compile CSS, and Refresh HTML to
 **Development Files:-**
 ```
 	+-- src
+	|   +-- fonts
 	|   +-- images
 	|   +-- libs
 	|	|   +-- Dependencies 1
