@@ -1,14 +1,14 @@
-## Uniquer HTML5 & CSS3 - Contact Us Page
+## Unique HTML5 & CSS3 - Contact Us Page
 
 ### Getting Started
 
  1. Open `CMD`, go to folder where you store the projects file. Don't create folder for this project yet.
- 2. `git` `clone` `https://github.com/shresthasans/gulp-fe-dev`
+ 2. `git` `clone` `https://github.com/shresthasans/contactus`
  3. It will create *gulp-fe-dev* folder and donwload all codes from Github.
 
 *Once you have downloaded, follow below steps to restore all dependencies and project structure:*
 
- 1. In the same CMD, run `cd gulp-fe-dev`
+ 1. In the same CMD, run `cd contactus`
  2. Next, run `npm i` (`i` stands for `install`)
  3. Run `bower install`
  
