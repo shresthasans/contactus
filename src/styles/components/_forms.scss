@@ -90,6 +90,7 @@
         background: $primary-clr;
         color: #fff;
         padding: .5rem 1.5rem;
+        width: 100%;
         .icon-send {
             margin-left: .2rem;
         }
@@ -98,9 +99,6 @@
             .icon-send {
                 margin-left: .5rem;
             }
-        }
-        @media screen and (max-width: 47.94rem) {
-            width: 100%;
         }
     }
 }
