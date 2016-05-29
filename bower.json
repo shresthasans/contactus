@@ -1,0 +1,24 @@
+{
+  "name": "gulp-tasks",
+  "description": "Gulp tasks to speedify the works",
+  "main": "index.js",
+  "authors": [
+    "Sanjay Shrestha"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "gulp",
+    "task-runner"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    ".sass-cache",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,35 @@
+//
+// COMMON ASSETS
+// 
+// Common assets, elemengs goes here.
+// 
+// Styleguide 1.0 
+//
+@import "common/variables";
+@import "common/typo";
+
+
+//
+// MODULES
+// 
+// Modular component goes here.
+//
+// Styleguide 2.0
+//
+@import "modules/modules";
+@import "modules/helper";
+
+//
+// COMPONENTS
+// 
+// Generic Component for the pages
+//
+// Styleguide 3.0
+//
+@import "components/forms";
+@import "components/page";
+@import "components/footer";
+
+
+// Moldules
+//@import "modules/**"

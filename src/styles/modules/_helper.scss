@@ -1,0 +1,33 @@
+// Helper
+//
+// Helper Classes
+// 
+// markup:
+// 
+// Styleguide 2.2
+//
+.text-center {
+    text-align: center;
+}
+
+.page-heading,
+.page-heading-sub {
+    color: #FFFFFF;
+}
+
+.page-heading {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px #186ba2;
+    &-sub {
+        font-size: 1.5rem;
+        font-weight: 400;
+        @media screen and (max-width: 47.94rem) {
+            font-size: 1.1rem;
+        }
+    }
+    @media screen and (max-width: 47.94rem) {
+        font-size: 2.2rem;
+    }
+}

@@ -1,0 +1,39 @@
+// Footer of the page
+//
+// markup:
+//
+// Styleguide
+//
+
+.footer-rights {
+    @media screen and (max-width: 47.94rem) {
+        display: block;
+    }
+
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3.75rem;
+    line-height: 3.75rem;
+    color: #000;
+    @media screen and (max-width: 47.94rem) {
+        position: static;
+        height: auto;
+        line-height: 2rem;
+        padding: 0rem 0 1rem 0;
+    }
+    .copyright {
+        margin-bottom: 0;
+        display: block;
+        text-align: center;
+        font-size: 1rem;
+        @media screen and (max-width: 47.94rem){
+          font-size: .9rem;
+        }
+    }
+}
+
+

@@ -1,0 +1,106 @@
+// Forms
+//
+// Global form and element styles.
+// 
+// markup:
+// 
+// Styleguide 3.1
+//
+.contact-form {
+    label {
+        position: relative;
+        display: block;
+    }
+    input,
+    textarea {
+        font-size: $size;
+        box-sizing: border-box;
+        display: block;
+        border: none;
+        padding: $size--md;
+        width: 100%;
+        margin-bottom: $size--md;
+        font-size: $size;
+        outline: none;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        background-color: $secondary-clr--light;
+        &::-webkit-input-placeholder {
+            -webkit-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+            color: $secondary-clr;
+            font-size: $size;
+        }
+        &::-moz-placeholder {
+            -webkit-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+            color: $secondary-clr;
+            font-size: $size;
+        }
+        &:-ms-input-placeholder {
+            -webkit-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+            color: $secondary-clr;
+            font-size: $size;
+        }
+        &::placeholder {
+            -webkit-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+            color: $secondary-clr;
+            font-size: $size;
+        }
+        &:focus,
+        &.populated {
+            padding-top: 1.75rem;
+            padding-bottom: 0.75rem;
+            &::-webkit-input-placeholder {
+                color: transparent;
+            }
+            &::-moz-placeholder {
+                color: transparent;
+            }
+            &:-ms-input-placeholder {
+                color: transparent;
+            }
+            &::placeholder {
+                color: transparent;
+            }
+            + span {
+                opacity: 1;
+                top: 0.625rem;
+            }
+        }
+    }
+}
+
+.sub-placeholder {
+    color: #58ade6;
+    position: absolute;
+    top: 0;
+    left: 1.25rem;
+    opacity: 0;
+    @extend .transition;
+}
+
+.form {
+    &-submit {
+        @extend .transition;
+        font-size: $size;
+        border: none;
+        background: $primary-clr;
+        color: #fff;
+        padding: .5rem 1.5rem;
+        .icon-send {
+            margin-left: .2rem;
+        }
+        &:hover {
+            background: darken($primary-clr, 10%);
+            .icon-send {
+                margin-left: .5rem;
+            }
+        }
+        @media screen and (max-width: 47.94rem) {
+            width: 100%;
+        }
+    }
+}

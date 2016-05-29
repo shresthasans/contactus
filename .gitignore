@@ -1,0 +1,14 @@
+node_modules/
+src/libs/
+tmp/
+styleguide/
+
+.sass-cache/
+.DS_Store
+.gulp-scss-cache/
+*.zip
+*.rar
+*.txt
+*.tmp
+*.log
+*.npm-debug

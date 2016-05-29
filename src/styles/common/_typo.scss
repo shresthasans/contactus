@@ -1,0 +1,85 @@
+// Typography
+//
+// Global Markup for Typography
+//
+// markup:
+//
+// Styleguide 1.2
+//
+@import url(http://fonts.googleapis.com/css?family=Raleway:200,500,700,800);
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?b13yx4');
+    src: url('../fonts/icomoon.eot?b13yx4#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?b13yx4') format('truetype'), url('../fonts/icomoon.woff?b13yx4') format('woff'), url('../fonts/icomoon.svg?b13yx4#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: all 0.2s ease-in-out;
+}
+
+.icon {
+    &-map-marker:before {
+        content: "\f041";
+    }
+    &-twitter-square {
+        &:before {
+            content: "\f081";
+        }
+        &:hover {
+            color: #0e90c5;
+        }
+        @media screen and (max-width: 47.94rem) {
+            color: #0e90c5;
+        }
+    }
+    &-facebook-square {
+        &:before {
+            content: "\f082";
+        }
+        &:hover {
+            color: #3a589b;
+        }
+        @media screen and (max-width: 47.94rem) {
+            color: #3a589b;
+        }
+    }
+    &-google-plus-square {
+        &:before {
+            content: "\f0d4";
+        }
+        &:hover {
+            color: #cd2429;
+        }
+        @media screen and (max-width: 47.94rem) {
+            color: #cd2429;
+        }
+    }
+    &-paper-plane:before {
+        content: "\f1d8";
+    }
+    &-send:before {
+        content: "\f1d8";
+    }
+    &-location {
+        position: absolute;
+        left: 0;
+        top: 0.2rem;
+        font-size: $size--lg;
+        color: #ff5454;
+        @media screen and (max-width: 47.94rem) {
+            display: none;
+        }
+    }
+}
